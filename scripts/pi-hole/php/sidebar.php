@@ -141,11 +141,11 @@
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li>
+                        <!-- li>
                             <a href="#" id="pihole-disable-indefinitely">
                                 <i class="fa fa-fw menu-icon fa-infinity"></i> Indefinitely
                             </a>
-                        </li>
+                        </li -->
                         <li>
                             <a href="#" id="pihole-disable-10s">
                                 <i class="fa fa-fw menu-icon fa-clock"></i> For 10 seconds
@@ -158,14 +158,14 @@
                         </li>
                         <li>
                             <a href="#" id="pihole-disable-5m">
-                                <i class="fa fa-fw menu-icon fas fa-clock"></i> For 5 minutes
+                                <i class="fa fa-fw menu-icon fas fa-clock"></i> For 10 minutes
                             </a>
                         </li>
-                        <li>
+                        <!-- li>
                             <a href="#" id="pihole-disable-cst" data-toggle="modal" data-target="#customDisableModal">
                                 <i class="fa fa-fw menu-icon fa-user-clock"></i> Custom time
                             </a>
-                        </li>
+                        </li -->
                     </ul>
                     <!-- <a href="#" id="flip-status"><i class="fa fa-stop"></i> <span>Disable</span></a> -->
                 </li>

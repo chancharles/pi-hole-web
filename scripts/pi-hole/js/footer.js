@@ -267,7 +267,7 @@ $("#pihole-disable-30s").on("click", function (e) {
 });
 $("#pihole-disable-5m").on("click", function (e) {
   e.preventDefault();
-  piholeChange("disable", "300");
+  piholeChange("disable", "600");
 });
 $("#pihole-disable-custom").on("click", function (e) {
   e.preventDefault();
