@@ -11,34 +11,6 @@ $indexpage = true;
 require 'scripts/pi-hole/php/header_authenticated.php';
 require_once 'scripts/pi-hole/php/gravity.php';
 ?>
-<!-- CC Customization Begins -->
-<script type="text/javascript">
-$(document).ready(function() {
-  $("#pihole-disable-10m").on("click", function (e) {
-    e.preventDefault();
-    piholeChange("disable", "600");
-  });
-});
-
-</script>
-<div class="row">
-    <div class="col-lg-3 col-sm-6">
-        <!-- small box -->
-        <div class="small-box bg-red no-user-select">
-            <div class="inner">
-                <p>Disable Blocking</p>
-                <h3></h3>
-            </div>
-            <div class="icon">
-                <i class="fas fa-hand-paper"></i>
-            </div>
-            <a href="#" id="pihole-disable-10m" class="small-box-footer">
-                <i class="fa fa-fw menu-icon fas fa-clock"></i> For 10 minutes
-            </a>
-        </div>
-    </div>
-</div>
-<!-- CC Customization Ends -->
 <!-- Small boxes (Stat box) -->
 <div class="row">
     <div class="col-lg-3 col-sm-6">
